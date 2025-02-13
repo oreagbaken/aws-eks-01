@@ -1,0 +1,12 @@
+eks_cluster_enable_log_types = ["audit", "api", "authenticator"]
+eks_cluster_endpoint_private_access = false
+eks_cluster_endpoint_public_access = true
+eks_cluster_endpoint_public_access_cidrs = ["0.0.0.0/0"]
+eks_cluster_log_retention_in_days = 90
+eks_cluster_name = "eks_cluster"
+eks_kubernetes_version = 1.28
+eks_create_cluster = true
+eks_enable_irsa = true
+eks_cluster_node_groups_defaults = {}
+private_subnets = []
+vpc_availability_zones = []
